@@ -75,8 +75,11 @@ int main(){
                         //if the button is broken, the star button needs to be pressed an additional time
 
                         if (indexBroken == i){
+                            if(j == 0){
+                                totalTime += 0.25;
+                            } 
                             if(j == 1){
-                            totalTime += 0.5;
+                                totalTime += 0.5;
                             } 
                             else if (j == 2){
                                 totalTime += 0.75;

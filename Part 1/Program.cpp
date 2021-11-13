@@ -9,7 +9,7 @@
 using namespace std;
 int main(){
 
-    ifstream f("./Tests/Part2.txt"); 
+    ifstream f("./Tests/Test1.txt"); 
     //reads from the test file
     string nextInput;
 
